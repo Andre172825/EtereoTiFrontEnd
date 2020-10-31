@@ -1,0 +1,21 @@
+#menu{
+    margin: 10px;        
+}
+#img-ico-menu{
+    margin:1px;
+    background-size: cover;
+    background-position: center;
+    width:40px;
+    height:40px;
+    margin-top: 8px;/*Cambiar*/
+}
+#vr {
+    width:1px;
+    background-color:#E1E1E1;    
+    top:0;
+    bottom:0;
+    left:150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;/*Cambiar*/
+}
