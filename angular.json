@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "EtereoTiFrontEnd"
+    }
+  },
+  "defaultProject": "EtereoTiFrontEnd",
+  "cli": {
+    "analytics": "581521a6-cd3c-4bcf-9a4f-a90783eabd59"
+  }
 }
