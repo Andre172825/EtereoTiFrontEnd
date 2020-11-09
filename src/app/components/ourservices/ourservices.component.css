@@ -1,0 +1,14 @@
+.ourservicesimg1 {
+  width: 350px;
+  height: 350px;
+  margin-right: 60px;
+}
+.ourservicesimg2 {
+  width: 350px;
+  height: 350px;
+  margin-left: 60px;
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
