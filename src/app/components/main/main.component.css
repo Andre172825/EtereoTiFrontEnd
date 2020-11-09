@@ -9,11 +9,144 @@
     border-radius: 50%;
     transition: all 0.3s;
     font-size: 0.9rem;
-  }
-  
+  }  
   .social-link:hover,
   .social-link:focus {
     background: #ddd;
     text-decoration: none;
     color: #555;
+  }  
+  /*quitar decoracion a la etiqueta a */
+  A {text-decoration: none;}
+  /*Socios Estrategicos inicio*/ 
+  .img-ico-menu{
+    width:400px;
+    height:400px;
+    margin-top: 8px;/*Cambiar*/
+    margin:1px;
+    background-position: center;
+  } 
+  #texto_SE{
+    height: 200px;
   }
+  /*Socios Estrategicos fin*/
+
+  /*Beneficios Inicio*/  
+  /*texto de hexagonos*/
+  #hx_text{
+    margin: 20px 30px;    
+  }
+  /*hexagonos*/
+  .hexagon1{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #CEF9FB;
+    margin : 86.60px 0;   
+    
+  }
+  .hexagon1:before,
+  .hexagon1:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;    
+  }
+  .hexagon1:before{
+    bottom: 100%;
+    border-bottom: 86.60px solid #CEF9FB;
+  }  
+  .hexagon1:after{      
+      top:100%;
+      width: 0;
+      border-top: 86.60px solid #CEF9FB;      
+  }
+  .hexagon2{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #CEF9FB;
+    margin : 86.60px 0;    
+    margin-left: 7%;
+  }
+  .hexagon2:before,
+  .hexagon2:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;           
+  }
+  .hexagon2:before{
+    bottom: 100%;
+    border-bottom: 86.60px solid #CEF9FB;        
+  }  
+  .hexagon2:after{
+      top:100%;
+      width: 0;
+      border-top: 86.60px solid #CEF9FB;      
+  }
+  .hexagon3{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #CEF9FB;
+    margin : 86.60px 0;
+    margin-left: 14.5%;
+  }
+  .hexagon3:before,
+  .hexagon3:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+  }
+  .hexagon3:before{
+    bottom: 100%;
+    border-bottom: 86.60px solid #CEF9FB;
+  }  
+  .hexagon3:after{
+    top:100%;
+    width: 0;
+    border-top: 86.60px solid #CEF9FB;
+  }
+  /*Beneficios fin*/  
+
+  /*Nuestros servicios inicio*/
+  /*Carousel*/
+  .carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+  } 
+  #carousel_icon{
+    height: 40px;
+    width: 40px;
+  }
+  #carousel_titulo_icon{
+    display: inline-block;
+  }
+  .texto_cmain{
+    color:black;  
+  }
+  /* nothing below this point is needed*/
+  @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600,700,800,900&display=swap');
+  body {
+    background-color: #f2f2f2;
+    color: #171717;
+    height: 100vh;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  h1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+  }
+  /*Nuestros servicios fin*/
+
+
+  
+ 
